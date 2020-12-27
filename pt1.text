@@ -1,0 +1,43 @@
+1. What is HTTP?
+Hypertext Transfer Protocol. A protocol that allows communication between a browser and servers to transfer and retrieve data such as HTML. 
+
+2. What is a URL?
+Uniform/Universal Resource Locator. An "address" that helps find a file on the internet by using a specific pathway done by combining a protocol, hostname, port, resource and a query string(optional).
+
+3. What is DNS?
+Domain Name System. Syncs a page's hostname and IP address togther so that human's can use a memorable name rather than a slew of numbers. 
+
+4. What is a query string?
+Provides extra information or parameters to a URL(i.e.: search terms, forms, or other arguments)
+
+5. What are two HTTP verbs and how are they different?
+GET: requests data from a specified source.
+requests remain in browser history. doesn't change server data.
+POST: sends data to a server to create or update a resource. 
+requests do not remain in browser history. changes server data. 
+
+6. What is an HTTP request?
+Messages sent by client to initiate an action on the server. 
+
+
+
+7.What is an HTTP response?
+Message sent by server to client that provides client with the information requested and status of the request(complete, incomplete, number code.)
+
+8. What is an HTTP header? Give a couple examples of request and response headers you have seen.
+-General headers apply to both requests and responses, but with no relation to the data transmitted in the body.
+-Request headers contain more information about the resource to be fetched, or about the client requesting the resource.
+-Response headers hold additional information about the response, like its location or about the server providing it.
+-Entity headers contain information about the body of the resource, like its content length or MIME type.
+
+request header example: "Accept-Language: en-US,en;q=0.5"
+response header example: 200 ok.
+
+
+
+9. What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+- Turn "somesite.com" into an IP address.
+- Connect to the created IP address.
+- Port 80 is the default port.
+- Request "some/page.html"
+- No query string to pass. 
